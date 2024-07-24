@@ -1,0 +1,111 @@
+[
+    {
+        "model": "api.ingredient",
+        "pk": 1,
+        "fields": {
+            "name": "water",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "api.ingredient",
+        "pk": 2,
+        "fields": {
+            "name": "coffee",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "api.ingredient",
+        "pk": 3,
+        "fields": {
+            "name": "milk",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "api.ingredient",
+        "pk": 4,
+        "fields": {
+            "name": "sugar",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "api.beverage",
+        "pk": 1,
+        "fields": {
+            "name": "Black Coffee"
+        }
+    },
+    {
+        "model": "api.beverage",
+        "pk": 2,
+        "fields": {
+            "name": "Coffee with Milk"
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 1,
+        "fields": {
+            "beverage": 1,
+            "ingredient": 1,
+            "quantity": 3
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 2,
+        "fields": {
+            "beverage": 1,
+            "ingredient": 2,
+            "quantity": 1
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 3,
+        "fields": {
+            "beverage": 1,
+            "ingredient": 4,
+            "quantity": 1
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 4,
+        "fields": {
+            "beverage": 2,
+            "ingredient": 1,
+            "quantity": 1
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 5,
+        "fields": {
+            "beverage": 2,
+            "ingredient": 2,
+            "quantity": 1
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 6,
+        "fields": {
+            "beverage": 2,
+            "ingredient": 3,
+            "quantity": 2
+        }
+    },
+    {
+        "model": "api.beverageingredient",
+        "pk": 7,
+        "fields": {
+            "beverage": 2,
+            "ingredient": 4,
+            "quantity": 1
+        }
+    }
+]
