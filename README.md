@@ -45,3 +45,7 @@ For Acceess of Api: http://127.0.0.1:8000
 for update the inventory use http://127.0.0.1:8000/api/ingredients/<inventory_id>/update_inventory/
 
 Use the Django admin interface at http://127.0.0.1:8000/admin/ to manage ingredients and beverages
+
+Admin Pannel:
+username:Admin
+Password:Admin
